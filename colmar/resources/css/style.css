@@ -1,0 +1,325 @@
+html, body {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+body p {
+  font-family: 'Muli', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+body h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+body h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+/*nav*/
+#nav {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  margin: 0;
+}
+.content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  justify-content: space-between;
+}
+.logo {
+  margin: auto 0;
+  display: flex;
+}
+.logo img {
+  height: 32px;
+}
+.logo .name {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 5px;
+}
+.thick {
+  font-weight: 700;
+}
+.light {
+  color: #9b9b9b;
+  font-weight: 400;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu ul {
+  display: inline;
+}
+.menu li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  padding-left: 16px;
+}
+.mobmenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 24px;
+}
+.mobmenu img {
+  display: inline-block;
+  height: 32px;
+  width: auto;
+}
+/*banner*/
+.banner {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d8d8d8;
+  height: auto;
+  width: 100%;
+}
+.slogan {
+  display: block;
+  margin: 32px 0;
+  width: 80%;
+}
+.slogan h1 {
+  margin-bottom: 32px;
+}
+.slogan h3 {
+  margin-bottom: 24px;
+}
+.button {
+  display: block;
+  padding: 8px;
+  color: #fff;
+  background: #4a4a4a;
+  text-align: center;
+}
+.flexcontainer {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.left {
+  width: 60%;
+  margin: 32px 24px;
+}
+.right {
+  width: 40%;
+  margin: auto;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+/*main*/
+.main h2 {
+  margin: 32px 0 24px;
+}
+.main .right {
+  border-left: 1px solid #d8d8d8;
+  margin: 0;
+  padding: 16px 0 32px;
+}
+.main.mobile {
+  display: flex;
+  margin: 0;
+  width:100%;
+}
+.infobox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.infobox1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border-bottom: 2px solid #d8d8d8;
+  padding: 0 16px 0 0;
+}
+.infobox2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 16px 0 0;
+}
+.infobox3 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background: #d8d8d8;
+  padding: 0 16px 0 0;
+}
+.infobox4 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background: #d8d8d8;
+  padding: 0 16px 0 0;
+}
+.infobox5 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 16px 0 0;
+}
+.imagebox {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+.info {
+  width: 65%;
+  display: block;
+}
+.main h3 {
+  margin-bottom: 8px;
+}
+.main p {
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+.more {
+  color: #4a90e2;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 16px;
+}
+/*courses*/
+.courses {
+  background: #d8d8d8;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.courses.mobile {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  background: #fff;
+  padding: 16px 0;
+}
+.courses h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+#coursesint {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 16px auto;
+}
+.coursebox {
+  width: 330px;
+  height: auto;
+  margin: 16px;
+  background: #fff;
+}
+.desc {
+  padding: 16px 16px 24px 16px;
+}
+.button2 {
+  width: 100%;
+  display: block;
+  color: #4a4a4a;
+  background: #d8d8d8;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+.button2:last-child {
+  margin-bottom: 16px;
+}
+/*thesis*/
+.thesis {
+  margin: 0;
+  padding-top: 32px;
+}
+.thesis h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.thesis .right {
+  margin: 32px 0;
+}
+.thesis h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.videocontainer {
+  display: flex;
+  width:100%;
+  margin: 0 0 24px 0;
+}
+#footer {
+  width: 100%;
+  border-top: 1px solid #d8d8d8;
+}
+#footer p {
+  margin: 16px 0;
+}
+.copyright {
+  text-align: left;
+}
+.term {
+  text-align: right;
+}
+@media screen and (min-width: 481px) {
+  #nav.mobile {display: none;}
+  .main.mobile {display: none;}
+  .courses.mobile {display: none;}
+  .thesis.mobile {display: none;}
+}
+@media screen and (max-width: 480px) {
+  body h1 {font-size: 2rem;}
+  body h3 {font-size: 1.2rem;}
+  .courses h2 {text-align: center; margin: 0 auto 16px;}
+  .thesis h2 {text-align: center; margin: 0 auto 16px;}
+  #nav.desktop {display: none;}
+  .desktop {display: none;}
+  .flexcontainer {width: 100%; flex-wrap: wrap;}
+  .left {width: 100%; margin: 0;}
+  .right {width: 100%; padding: 0 16px;}
+  .slogan {width: 100%;}
+  .imagebox {width: 100%; height: auto; margin: 0;}
+  .info {width: 100%; display: block; padding: 16px;}
+  #footer {border-top: 0px solid #d8d8d8;}
+  #footer p {margin: 16px; font-size: 0.8rem;}
+  .term {display: none;}
+}
